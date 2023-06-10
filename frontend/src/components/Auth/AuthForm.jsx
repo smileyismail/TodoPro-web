@@ -56,7 +56,7 @@ const SignUp = ({ isLogin, serverError, onSubmit, isLoading }) => {
       newErrors.password = "Password must be at least 8 characters";
     }
     if (!isLogin && values.password !== values.confirmPassword) {
-      newErrors.confirmPassword = "Passwords Do not match";
+      newErrors.confirmPassword = "Passwords do not match";
     }
 
     setErrors(newErrors);
