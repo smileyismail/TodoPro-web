@@ -27,7 +27,7 @@ const LogInPage = () => {
       navigate("/app/todos");
     } catch (err) {
       if (err.code === "ERR_BAD_REQUEST") {
-        setServerError("Email already in use");
+        setServerError("Invalid Email or Password");
       } else {
         setServerError("An error occurred during sign-up. Please try again.");
       }

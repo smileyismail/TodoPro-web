@@ -1,6 +1,6 @@
 # TodoPro
 
-TodoPro is a website designed to help users effectively manage their tasks and to-do lists.
+TodoPro is a website designed to help users effectively manage their tasks.
 
 ## Demo
 
