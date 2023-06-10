@@ -23,7 +23,7 @@ const SignUpPage = () => {
     setServerError("");
     try {
       const userId = await signUpUser(email, password);
-      dispatch(authSliceActions.authenticate({ email: userId }));
+      dispatch(authSliceActions.authenticate({ userId: userId }));
       navigate("/app/todos");
     } catch (err) {
       if (err.code === "ERR_BAD_REQUEST") {

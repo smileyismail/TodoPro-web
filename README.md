@@ -4,7 +4,7 @@ TodoPro is a website designed to help users effectively manage their tasks and t
 
 ## Demo
 
-<a href="https://todoist-wb.netlify.app/" target="_blank" rel="noopener noreferrer">Click Here</a> for Live Preview.
+<a href="https://todopro-web.netlify.app/" target="_blank" rel="noopener noreferrer">Click Here</a> for Live Preview.
 
 ## Tech Stack
 
@@ -16,7 +16,7 @@ TodoPro is a website designed to help users effectively manage their tasks and t
 Download the code zip file (or) Clone the project with the following command
 
 ```bash
-  git clone https://github.com/smileyismail/Todoist
+  git clone https://github.com/smileyismail/TodoPro
 ```
 
 Open The project directory, It contains two folders "frontend" and "backend"  
