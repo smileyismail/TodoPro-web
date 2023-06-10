@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://todopro.onrender.com";
 
 export async function getTodos() {
   const userId = localStorage.getItem("userId");
