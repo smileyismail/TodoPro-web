@@ -15,6 +15,7 @@ import { useDispatch } from "react-redux";
 
 import defaultAvatar from "../../assets/defaultAvatar.jpg";
 import { authSliceActions } from "../../store/authSlice";
+import { todoSliceActions } from "../../store/todoSlice";
 
 export default function LoggedInNav(props) {
   const { userId } = props;
@@ -30,6 +31,7 @@ export default function LoggedInNav(props) {
   };
 
   function logOutHandler() {
+    dispatch(todoSliceActions.setTodos([]));
     dispatch(authSliceActions.logOut());
     navigate("/auth/logIn");
   }
