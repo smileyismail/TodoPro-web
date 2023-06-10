@@ -18,13 +18,13 @@ import NotFoundPage from "./pages/NotFoundPage";
 
 const App = () => {
   const userId = useSelector((state) => state.authStore.userId);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  useEffect(() => {
-    if (userId) {
-      navigate("/app");
-    }
-  }, [userId]);
+  // useEffect(() => {
+  //   if (userId) {
+  //     navigate("/app");
+  //   }
+  // }, [userId]);
 
   return (
     <Box bgcolor={colors.primary} sx={{ minHeight: "100vh" }}>
