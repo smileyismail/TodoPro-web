@@ -60,7 +60,7 @@ const Home = (props) => {
               },
             }}
           >
-            {userId ? "Go to App" : " Get Started"}
+            {userId ? "Go to Todo's" : " Get Started"}
           </Button>
         </Link>
       </Box>
